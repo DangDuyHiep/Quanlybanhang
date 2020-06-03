@@ -1,4 +1,4 @@
-Tên nhóm : Nice Boys
+﻿Tên nhóm : Nice Boys
 
 1. Sinh viên 1:
     Họ Tên : Đặng Duy Hiệp
@@ -7,6 +7,10 @@ Tên nhóm : Nice Boys
     Mạng xã hội : https://www.facebook.com/profile.php?id=100007118502155
 
 2. Sinh viên 2:
+    Họ Tên : Phạm Hải Đường
+    Email : phamhaiduongq12@gmail.com
+    Số điện thoại : 037796098 
+    Mạng xã hội : https://www.facebook.com/dauchannguoiduocchon
 3. Sinh viên 3:
 4. Sinh viên 4:
 5. Sinh viên 5:
