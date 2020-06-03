@@ -4,8 +4,7 @@
     Họ Tên : Đặng Duy Hiệp
     Email : dangduyhiepddh@gmail.com
     Số điện thoại : 0967199447 
-    Mạng xã hội : https://www.facebook.com/profile.php?id=100007118502155
-
+    Mạng xã hội : https://www.facebook.com/dangduyhiep98
 2. Sinh viên 2:
     Họ Tên : Phạm Hải Đường
     Email : phamhaiduongq12@gmail.com
