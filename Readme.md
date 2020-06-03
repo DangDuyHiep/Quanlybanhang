@@ -16,6 +16,10 @@
     Số điện thoại : 0334131100
     Mạng xã hội : https://www.facebook.com/phanhuutin98
 4. Sinh viên 4:
+    Họ Tên : Đoàn Như Chí
+    Email : doannhuchi1811@gmail.com
+    Số điện thoại : 0389400516
+    Mạng xã hội : https://www.facebook.com/profile.php?id=100010410738301
 5. Sinh viên 5:
     Họ Tên : Huỳnh Minh lộc
     Email : hml9x.it@gmail.com
@@ -24,7 +28,7 @@
     
 6. Sinh viên 6:
 7. Sinh viên 7:
-	Họ Tên : Đoàn Đình Chương
+    Họ Tên : Đoàn Đình Chương
     Email : chuongdd284@gmail.com
     Số điện thoại : 0707921889 
     Mạng xã hội : https://www.facebook.com/chuong.doan
