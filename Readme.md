@@ -12,6 +12,10 @@
     Số điện thoại : 037796098 
     Mạng xã hội : https://www.facebook.com/dauchannguoiduocchon
 3. Sinh viên 3:
+    Họ Tên : Phan Hữu Tín
+    Email : phantin1591998@gmail.com
+    Số điện thoại : 0334131100
+    Mạng xã hội : https://www.facebook.com/phanhuutin98
 4. Sinh viên 4:
 5. Sinh viên 5:
 6. Sinh viên 6:
