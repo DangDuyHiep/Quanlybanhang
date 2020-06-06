@@ -1,0 +1,125 @@
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+.container-test{
+    width: 80%;
+    margin: auto;
+}
+.contact{
+    background-color: #333333;
+}
+
+.Find{
+    background-color:#ffffff;  
+}
+
+.Find .search-test{
+    border: 2px solid #429a9d;
+    position: relative;
+}
+
+.search .click-find{
+    position: absolute;
+    top: 4px;
+    right: 18px;
+    background-color: #429a9d;
+    border: 1;
+    border: 0px;
+    font-size: 19px;
+    border-radius: 2px;
+    width: 8%;
+}
+
+.giohang{
+    color:#75bc2f;
+    position: absolute;
+    top: 8px;
+    width: 15%;
+}
+
+.menu{
+    background-color: #ff5400;
+}
+.menu-test{
+    font-size: 16px;
+}
+
+.menu-test .menu-test1{
+    color: 	#FFFFFF;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+}
+
+.hr-slide{
+    border-bottom: 3px solid black;
+}
+
+.menu-left{
+    background-color: #f2f2f2;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.menu-left .danhmuc{
+    background-color: #4a4a4a;
+    color: #f2f2f2;
+    font-size: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-left .ic-danhmuc{
+    padding-right: 2px;
+}
+
+.ic-list{
+    border: 1px solid;
+    border-radius: 50%;
+    width: 18px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+}
+
+.ic-list:hover{
+    background-color: aqua;
+}
+
+.menu-left .menu-t{
+    color: black;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.menu-left .menu-t:hover{
+    background-color: #4a4a4a;
+    overflow: hidden;
+    color: #f2f2f2;
+}
+
+.menu-t .ic-menu-t{
+    color:#f2f2f2;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.menu-left .menu-b{
+    padding-bottom: 25px;
+}
+
+.product .tieude{
+    border-bottom: 2px solid #429a9d;
+}
+
+.footer{
+    background-color: #000000;
+}
+
+.footer .h6{
+    color: #f2f2f2;
+}
