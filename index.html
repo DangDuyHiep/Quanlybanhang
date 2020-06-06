@@ -56,10 +56,11 @@
             </div>
             <div class="Find">
                 <div class="container-test">
-                    <div class="row pt-5 pb-5">
-                        <div class="col-3">
+                    <div class="row Find-container">
+                        <div class="col-3 logo">
+                            <a href=""  class="logo-home"><img src="img/niceboy-logo_10903.png" alt=""></a>
                         </div>
-                        <div class="col-6 search" style="text-align: center;">
+                        <div class="col-6 search">
                             <input class="form-control mr-sm-2 search-test" type="search"
                                 placeholder="Tìm kiếm sản phẩm ..." aria-label="Search">
                             <button class="click-find"><i class="fas fa-search"></i></button>
@@ -109,29 +110,69 @@
                                             class="fas fa-bars ic-danhmuc"></i>DANH MỤC SẢN PHẨM <span><i
                                                 class="fas fa-angle-down ic-list"></i></span></a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link menu-t" href="#">Điện thoại<span class="ic-menu-t"><i
-                                                class="fas fa-angle-right"></i></span></a>
+                                <li class="nav-item dropdown" style="border-left: 2px solid red;">
+                                    <a class="nav-link menu-t" id="navbarDropdown" data-toggle="dropdown" href="#">Điện
+                                        thoại<span class="ic-menu-t"><i class="fas fa-angle-right"></i></span></a>
+                                    <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link menu-t" href="#">Lap top<span class="ic-menu-t"><i
-                                                class="fas fa-angle-right"></i></span></a>
+                                <li class="nav-item dropdown" style="border-left: 2px solid greenyellow;">
+                                    <a class="nav-link menu-t" id="navbarDropdown" data-toggle="dropdown" href="#">Lap
+                                        top<span class="ic-menu-t"><i class="fas fa-angle-right"></i></span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link menu-t" href="#">Apple<span class="ic-menu-t"><i
+                                <li class="nav-item dropdown" style="border-left: 2px solid pink;">
+                                    <a class="nav-link menu-t" id="navbarDropdown" data-toggle="dropdown"
+                                        href="#">Apple<span class="ic-menu-t"><i
                                                 class="fas fa-angle-right"></i></span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item dropdown" id="navbarDropdown" data-toggle="dropdown"
+                                    style="border-left: 2px solid yellow;">
                                     <a class="nav-link menu-t" href="#">Đồng hồ<span class="ic-menu-t"><i
                                                 class="fas fa-angle-right"></i></span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item dropdown" id="navbarDropdown" data-toggle="dropdown"
+                                    style="border-left: 2px solid blueviolet;">
                                     <a class="nav-link menu-t" href="#">Phụ kiện<span class="ic-menu-t"><i
                                                 class="fas fa-angle-right"></i></span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item menu-b">
-                                    <a class="nav-link menu-t " href="#">Máy ảnh & máy quay phim<span
-                                            class="ic-menu-t"><i class="fas fa-angle-right"></i></span></a>
+                                <li class="nav-item dropdown menu-b" style="border-left: 2px solid tomato;">
+                                    <a class="nav-link menu-t " id="navbarDropdown" data-toggle="dropdown" href="#">Máy
+                                        ảnh & máy quay phim<span class="ic-menu-t"><i
+                                                class="fas fa-angle-right"></i></span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -178,49 +219,6 @@
                     <div class="col-3">
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <p class="h6">GIỚI THIỆU</p>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-angle-double-right"></i>Về chúng tôi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-angle-double-right"></i>Tổng quan về công
-                                    ty</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#"><i class="fas fa-angle-double-right"></i>Các chương trình
-                                    khuyến mãi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#"><i class="fas fa-angle-double-right"></i>Cẩm nang mua
-                                    sắm</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <p class="h6"> LIÊN HỆ - HỢP TÁC </p>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-angle-double-right"></i>Tuyển dụng</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-angle-double-right"></i>Đối tác tin
-                                    cậy</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-angle-double-right"></i>Liên lạc</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#"><i class="fas fa-angle-double-right"></i>Dành cho doanh
-                                    nghiệp</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
                                 <p class="h6">THÔNG TIN CÔNG TY</p>
                             </li>
                             <li class="nav-item">
@@ -237,25 +235,79 @@
                                 <p>Gmail : Dangduyhiepddh@gmail.com</p>
                             </li>
                         </ul>
+
+                    </div>
+                    <div class="col-3">
+                        <ul class="nav flex-column lienlac">
+                            <li class="nav-item">
+                                <p class="h6"> LIÊN HỆ - HỢP TÁC </p>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ft-lienhe" href="#"><i
+                                        class="fas fa-angle-double-right ic-footer"></i>Tuyển dụng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ft-lienhe" href="#"><i
+                                        class="fas fa-angle-double-right ic-footer"></i>Đối tác tin
+                                    cậy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ft-lienhe" href="#"><i
+                                        class="fas fa-angle-double-right ic-footer"></i>Liên lạc</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ft-lienhe" href="#"><i
+                                        class="fas fa-angle-double-right ic-footer"></i>Dành cho doanh
+                                    nghiệp</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="nav flex-column gioithieu">
+                            <li class="nav-item">
+                                <p class="h6">GIỚI THIỆU</p>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ft-gioithieu" href="#"><i
+                                        class="fas fa-angle-double-right ic-footer"></i>Về chúng tôi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ft-gioithieu" href="#"><i
+                                        class="fas fa-angle-double-right ic-footer"></i>Tổng quan về công
+                                    ty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ft-gioithieu" href="#"><i
+                                        class="fas fa-angle-double-right ic-footer"></i>Các chương trình
+                                    khuyến mãi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ft-gioithieu" href="#"><i
+                                        class="fas fa-angle-double-right ic-footer"></i>Cẩm nang mua
+                                    sắm</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-3">
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <p class="h6">MẠNG XÃ HỘI</p>
                             </li>
-                            <li class="nav-item">
-                                <p>CÔNG TY TNHH ISC QUANG TRUNG</p>
-                            </li>
-                            <li class="nav-item">
-                                <p>Tòa nhà SaigonTech, Lô 14, Đường số 5, Công viên Phần mềm Quang Trung, Q. 12, Tp.
-                                    HCM, Việt Nam</p>
-                            </li>
-                            <li class="nav-item">
-                                <p>Phone: 0967199447</p>
-                            </li>
-                            <li class="nav-item">
-                                <p>Gmail : Dangduyhiepddh@gmail.com</p>
-                            </li>
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a href="###"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="####"><i class="fas fa-mail-bulk"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="####"><i class="fab fa-instagram-square"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
                         </ul>
                     </div>
                 </div>
