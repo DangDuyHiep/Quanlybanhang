@@ -5,198 +5,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Detail</title>
     <%- include('components/library'); -%>
-    <link href="../client/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./plugins/font_awesome/css/all.min.css" rel="stylesheet">
-    <link href="../client/css/page/ProductDetail.css" rel="stylesheet">
+    <link href="./css/page/ProductDetail.css" rel="stylesheet">
 </head>
 <body>
     <%- include('components/header'); -%>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active"> <img class="d-block w-100" src="./img/car_img/car1.jpg" alt="First image"> </div>
-                <div class="carousel-item"> <img class="d-block w-100" src="./img/car_img/car2.jpg" alt="Second image"> </div>
-                <div class="carousel-item"> <img class="d-block w-100" src="./img/car_img/car19.jpg" alt="Third image"> </div>
-                <div class="carousel-item"> <img class="d-block w-100" src="./img/car_img/car9.jpg" alt="Forth image"> </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <h2>Mainboard Z390</h2>
-            </div>
-            <div class="row">
-              <h2><i class="fas fa-money-check-alt"></i><i class="fa fa-inr" aria-hidden="true"></i> 499.000 VND</h2>
-              &nbsp; &nbsp;
-              <h3><del>600.000 VND</del></h3>
-              &nbsp; &nbsp;
-              <h2 class="text-success">20% off</h2>
-            </div>
-            <div class="row">
-              <h3 class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></h3>
-              &nbsp; &nbsp;
-            </div>
-            <div class="row">
-                  <p><i class="fas fa-check-square text-success"></i> <strong>Tính năng 1</strong> Mô tả </p>
-                  <p><i class="fas fa-check-square text-success"></i> <strong>Tính năng 2</strong> Mô tả </p>
-                  <p><i class="fas fa-check-square text-success"></i> <strong>Tính năng 3</strong> Mô tả </p>
-                  <p><i class="fas fa-check-square text-success"></i> <strong>Tính năng 4</strong> Mô tả </p>
-            </div>
-   
-            <div class="row mt-4">
-              <h4>Chọn loại: &nbsp; &nbsp;</h4>
-              <div class="dropdown show"> <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Loại mặc định </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Loại 1</a> <a class="dropdown-item" href="#">Loại 2 </a> <a class="dropdown-item" href="#">Loại 3</a> </div>
-              </div>
-            </div>
-            <div class="row mt-4">
-                <h4>Màu: &nbsp; &nbsp; </h4>
-                <a class="btn btn-primary text-light">Office</a> &nbsp; <a class="btn btn-danger text-light">Gaming</a>&nbsp; 
-            </div>
-            
-            <div class="row mt-4">
-                <h4>Nhà cung cấp: &nbsp; &nbsp;</h4>
-                <p style="font-size: 1.5em">Gigabyte </p>
-            </div>    
-          </div>
+   <div class="container text-secondary">
+    <div class="row">
+      <div class="col-sm-8 col-xs-12 col-md-6">
+        <figure class="figure">
+        <img src="./img/img1/hdd01.jpg" class="img-fluid img-thumbnail" alt="current product image">
+        <figcaption class="figure-caption">Ổ cứng HDD 1TB</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-4 col-xs-12 col-md-6">
+        <div class="row">
+          <div class="h2">HDD WD Blue 1TB</div>
+        </div>
+        <div class="row">
+          <h2><i class="fas fa-money-check-alt"></i><i class="fa fa-inr" aria-hidden="true"></i> 499.000 VND</h2>
+          &nbsp; &nbsp;
+          <h3><del>600.000 VND</del></h3>
+          &nbsp; &nbsp;
+          <h2 class="text-success">20% off</h2>
+        </div>
+        <div class="row">
+          <h3 class="text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+              class="fas fa-star-half-alt"></i><i class="far fa-star"></i></h3>
+          &nbsp; &nbsp;
+        </div>
+        <div class="row">
+          <p><i class="fas fa-check-square text-success"></i> <strong>Tính năng 1</strong> Mô tả </p>
+        </div>
+        <div class="row">
+          <p><i class="fas fa-check-square text-success"></i> <strong>Tính năng 2</strong> Mô tả </p>
+        </div>
+        <div class="row">
+          <p><i class="fas fa-check-square text-success"></i> <strong>Tính năng 3</strong> Mô tả </p>
+        </div>
+        <div class="row">
+          <p><i class="fas fa-check-square text-success"></i> <strong>Tính năng 4</strong> Mô tả </p>
+        </div>
+        <div class="row">
+          <h5>Nhà cung cấp: &nbsp; &nbsp;</h5>
+          <p style="font-size: 1em">Western Digital</p>
+        </div>
+        <div class="row">
+          <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i
+            class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br /><br />
         </div>
       </div>
-      <div class="container">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consectetur id in ipsum quidem! Debitis adipisci, natus sapiente laboriosam provident voluptatem totam quibusdam ea voluptatibus reprehenderit inventore, necessitatibus laudantium soluta.
-      </div>
-      
-      <div class="container">
-         <div class="row mt-5">
-              <h2>Sản phẩm tương tự</h2>
-         </div>
-         <div class="row mt-5">
-             <div class="col-md-3">
-                 <div class="card">
-                     <img class="card-img-top img-fluid" src="./img/car_img/car4.jpg">
-                     <div class="card-title">
-                         <h4>Lorem, ipsum dolor</h4>
-                     </div> 
-                     <div class="card-text">
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae fugiat et voluptate sunt officia vero molestias.<br/><br/>
-                         <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br/><br/>
-                     </div>
-                 </div>
-             </div>
-             
-             
-             <div class="col-md-3">
-                 <div class="card">
-                     <img class="card-img-top img-fluid" src="./img/car_img/car5.jpg">
-                     <div class="card-title">
-                        <h4>Lorem, ipsum dolor</h4>
-                    </div> 
-                    <div class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae fugiat et voluptate sunt officia vero molestias.<br/><br/>
-                        <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br/><br/>
-                    </div>
-                 </div>
-             </div>
-             
-             
-             <div class="col-md-3">
-                 <div class="card">
-                     <img class="card-img-top img-fluid" src="./img/car_img/car6.jpg">
-                     <div class="card-title">
-                        <h4>Lorem, ipsum dolor</h4>
-                    </div> 
-                    <div class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae fugiat et voluptate sunt officia vero molestias.<br/><br/>
-                        <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br/><br/>
-                    </div>
-                 </div>
-             </div>
-             
-             <div class="col-md-3">
-                 <div class="card">
-                     <img class="card-img-top img-fluid" src="./img/car_img/car12.jpg">
-                     <div class="card-title">
-                        <h4>Lorem, ipsum dolor</h4>
-                    </div> 
-                    <div class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae fugiat et voluptate sunt officia vero molestias.<br/><br/>
-                        <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br/><br/>
-                    </div>
-                 </div>
-             </div>
-         </div>
-         
-         
-      </div>
-      
-      
-      <div class="container mt-5 mb-5">
-          <div class="row">
-              <h2>Đánh giá của khách hàng</h2>
-          </div>
-          
-          <div class="row mt-5 mb-5">
-              <div class="media">
-        <img class="mr-3" src="./img/people_comment/person1.jpg" alt="Generic placeholder image">
-        <div class="media-body">
-          <h5 class="mt-0">Good <span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span></h5>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-        </div>
-      </div>
-          </div>
-          
-          <div class="row mb-5">
-          <div class="media"> <img class="mr-3" src="./img/people_comment/person2.jpg" alt="Generic placeholder image">
-            <div class="media-body">
-              <h5 class="mt-0">Perfect<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span></h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </div>
-          </div>
-        </div>
-        
-        
-        <div class="row mb-5">
-          <div class="media"> <img class="mr-3" src="./img/people_comment/person3.jpg" alt="Generic placeholder image">
-            <div class="media-body">
-              <h5 class="mt-0">Bad<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span></h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </div>
-          </div>
-        </div>
-        
-        
-        <div class="row mb-5">
-          <div class="media"> <img class="mr-3" src="./img/people_comment/person4.jpg" alt="Generic placeholder image">
-            <div class="media-body">
-              <h5 class="mt-0">Nice<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span></h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </div>
-          </div>
-        </div>
-          
-          <div class="row mb-5">
-              <h2>Chia sẻ đánh giá của bạn</h2>
-          </div>
-          
-          
- 	<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Địa chỉ email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">Thông tin email của bạn sẽ được bảo mật.</small>
+    </div>
+    <div class="h3">Mô tả chi tiết</div>
+    <div class="detail">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consectetur id in ipsum quidem! Debitis
+      adipisci, natus sapiente laboriosam provident voluptatem totam quibusdam ea voluptatibus reprehenderit inventore,
+      necessitatibus laudantium soluta.
+    </div>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <textarea type="text" class="form-control" id="exampleInputtextarea" placeholder="đánh giá" rows="3"></textarea>
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Xác nhận</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Đăng</button>
-</form>        
+  
+
+  <div class="container">
+    <div class="row mt-5">
+      <h2>Sản phẩm tương tự</h2>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/img1/hdd02.jpg">
+          <div class="card-title">
+            <h4>Lorem, ipsum dolor</h4>
+          </div>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae fugiat et voluptate sunt officia vero
+            molestias.<br /><br />
+            <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i
+                class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br /><br />
+          </div>
+        </div>
       </div>
 
+
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/img1/hdd03.jpg">
+          <div class="card-title">
+            <h4>Lorem, ipsum dolor</h4>
+          </div>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae fugiat et voluptate sunt officia vero
+            molestias.<br /><br />
+            <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i
+                class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br /><br />
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/img1/hdd04.jpg">
+          <div class="card-title">
+            <h4>Lorem, ipsum dolor</h4>
+          </div>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae fugiat et voluptate sunt officia vero
+            molestias.<br /><br />
+            <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i
+                class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br /><br />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./img/img1/ssd01.jpg">
+          <div class="card-title">
+            <h4>Lorem, ipsum dolor</h4>
+          </div>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae fugiat et voluptate sunt officia vero
+            molestias.<br /><br />
+            <a class="btn btn-success text-light">Mua ngay</a> &nbsp; <a class="btn btn-danger text-light"><i
+                class="fa fa-cart-plus" aria-hidden="true"></i>Thêm vào giỏ</a> <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <h2>Đánh giá của khách hàng</h2>
+    </div>
+
+    <div class="row mt-5 mb-5">
+      <div class="media">
+        <img class="mr-3" src="./img/people_comment/person1.jpg" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0">Good <span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i
+                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i
+                class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i>
+            </span></h5>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+          vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+          lacinia congue felis in faucibus.
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="media"> <img class="mr-3" src="./img/people_comment/person2.jpg" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0">Perfect<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i
+                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i
+                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span></h5>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+          vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+          lacinia congue felis in faucibus.
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mb-5">
+      <div class="media"> <img class="mr-3" src="./img/people_comment/person3.jpg" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0">Bad<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i
+                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <i
+                class="fa fa-star-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span>
+          </h5>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+          vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+          lacinia congue felis in faucibus.
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mb-5">
+      <div class="media"> <img class="mr-3" src="./img/people_comment/person4.jpg" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0">Nice<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i
+                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i
+                class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i>
+            </span></h5>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+          vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+          lacinia congue felis in faucibus.
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <h2>Chia sẻ đánh giá của bạn</h2>
+    </div>
+
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Địa chỉ email của bạn</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="abc@email.com">
+        <small id="emailHelp" class="form-text text-muted">Địa chỉ email của bạn sẽ được bảo mật.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Đánh giá của bạn</label>
+        <textarea type="text" class="form-control" id="exampleInputtextarea" placeholder="đánh giá" rows="3"></textarea>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="checkConfirm">
+        <label class="form-check-label" for="checkConfirm">Xác nhận</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Đăng</button>
+    </form>
+  </div>
+
     <%- include('components/footer'); -%>
-    <script src="../client/js/jquery.min.js"></script>
-    <script src="../client/js/bootstrap.min.js"></script>
 </body>
 </html>
